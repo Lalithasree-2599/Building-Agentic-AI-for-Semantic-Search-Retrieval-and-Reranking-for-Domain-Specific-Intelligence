@@ -3,12 +3,12 @@
 This repository contains a modular workflow to build a production-ready Agentic RAG system using Pinecone, Amazon Bedrock, and vector database pipelines.
 Each stage of the pipeline is implemented via a dedicated notebook, enabling a clear and scalable development flow.
 
-📂 Project Structure
 📦 agentic-rag-pinecone/
 ├── 1_data_loading_pipeline.ipynb        # Load data, chunk, embed & upload vectors to Pinecone
 ├── 2_data_query_pipeline.ipynb          # Query Pinecone & generate a basic RAG response
 ├── 3_agentic_rag.ipynb                  # Agentic RAG — use tools & multi-step reasoning
 └── 4_clean_up.ipynb                     # Delete resources & clean up Pinecone/AWS setup
+
 
 📌 Project Overview
 
